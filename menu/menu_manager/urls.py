@@ -9,5 +9,5 @@ router.register(r'platillos', PlatilloViewSet)
 
 # The API URLs are now determined automatically by the router
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
 ]
